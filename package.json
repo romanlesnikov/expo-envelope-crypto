@@ -48,10 +48,6 @@
     "typecheck": "tsc --noEmit",
     "prepare": "npm run build"
   },
-  "peerDependencies": {
-    "expo-crypto": "*",
-    "react-native-quick-crypto": "*"
-  },
   "peerDependenciesMeta": {
     "expo-crypto": {
       "optional": true
@@ -61,8 +57,6 @@
     }
   },
   "devDependencies": {
-    "expo-crypto": "^57.0.3",
-    "react-native-quick-crypto": "^1.1.8",
     "typescript": "^5.9.2",
     "vitest": "^3.2.4"
   }
