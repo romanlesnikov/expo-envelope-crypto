@@ -48,6 +48,10 @@
     "typecheck": "tsc --noEmit",
     "prepare": "npm run build"
   },
+  "peerDependencies": {
+    "expo-crypto": "*",
+    "react-native-quick-crypto": "*"
+  },
   "peerDependenciesMeta": {
     "expo-crypto": {
       "optional": true
